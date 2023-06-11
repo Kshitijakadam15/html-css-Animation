@@ -1,0 +1,30 @@
+#gp
+{
+    height: 47px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px rgba(181, 178, 178, 0.2);
+
+}
+#text1{
+    border-right:1.5px solid gray;
+}
+#searchlogo:hover{
+    background-color: #d6283f;
+
+}
+input[type="submit"]:hover{
+    background-color: #006d62;
+}
+#city{
+    height: 32px;
+    width: 170px;
+    display: inline-block;
+    position: fixed;
+    border: none;
+    border-radius: 2px;
+    color: #464646;
+}
